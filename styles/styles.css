@@ -11,7 +11,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     padding: 1% 10%;
-    margin-bottom: 5rem;
+    padding-bottom: 5%;
 }
 
 header .header {
@@ -77,8 +77,46 @@ article .hero-subtext,
     justify-content: center;
 }
 
-/* Bullet Boxes Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+/* Bullet Boxes Styling */
+.bullets-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900
+}
+
+.bullets-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.bullet-box {
+    padding: 0px;
+    margin: 0px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bullet-box figure {
+    height: 160px;
+    width: 160px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+figcaption {
+    width: 160px;
+}
 
 /* Button and Call to Action */
 button {
