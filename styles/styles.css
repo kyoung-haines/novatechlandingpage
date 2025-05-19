@@ -69,6 +69,15 @@ article .hero-subtext,
     width: 55%;
 }
 
+.signup-btn, .cta-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 1% 3%;
+    border-radius: 0.5rem;
+    border: 1px solid #3882F6;
+    box-shadow: none;
+}
+
 .img-placeholder {
     width: 100%;
     background-color: gray;
@@ -142,11 +151,29 @@ figcaption {
 }
 
 /* Button and Call to Action */
-button {
+.cta-container {
+    width: 50%;
+    background-color: #3882F6;
+    color: white;
+    padding: 1% 10%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.cta-button {
     background-color: #3882F6;
     color: white;
     padding: 1% 3%;
     border-radius: 0.5rem;
-    border: 1px solid #3882F6;
+    border: 1px solid white;
     box-shadow: none;
+}
+
+footer {
+    min-width: 100%;
+    background-color: #1F2937;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 2%;
 }
